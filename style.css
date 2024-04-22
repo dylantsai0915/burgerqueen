@@ -396,68 +396,6 @@ ul{
     }
 }
 
-/* footer */
-.footer{
-    padding:50px 42px;
-    display:flex;
-    justify-content: center;
-    color:#3D1101;
-}
-.footer .about{
-    margin-right:21px;
-}
-.footer h3{
-    font-size:24px;
-    line-height: 32px;
-    margin-bottom:16px;
-    font-weight: 600;
-}
-.footer .connect ul{
-    display: block;
-}
-.footer .connect li{
-    list-style-type: disc;
-    list-style-position: inside;
-    line-height: 21px;
-}
-.pic{
-    margin-left:50px;
-    position: relative;
-}
-.pic span{
-    display: block;
-    font-family: NotoSansCJKtc-Black;
-    font-size: 49px;
-    color: #3D1101;
-    letter-spacing: 0px;
-    font-weight:700;
-    margin-bottom:22px;
-    text-align:right;
-}
-.pic .link{
-    gap: 12px;
-    justify-content: flex-end;
-    /* position: absolute;
-    right:0; */
-}
-.pic .link a img{
-    width:31px;
-    height: 31px;
-}
-@media(max-width:768px){
-    .footer{
-        flex-direction: column;
-        padding-left:20px;
-    }
-    .pic{
-        margin-left:0
-    }
-    .about,.connect{
-        margin-bottom: 20px;
-    }
-  
-}
-
 /* order 點餐介面 */
 .order{
     display: flex;
@@ -641,7 +579,7 @@ ul{
     }
 }
 
-/* login */
+/* login register介面*/
 .login,.register{
     margin: 50px 0;
     /* text-align: center; */
@@ -722,4 +660,78 @@ ul{
 }
 .registerPage .registerInput h4{
     text-align: left;
+}
+
+/* footer */
+.footer {
+    padding: 50px 42px;
+    display: flex;
+    justify-content: center;
+    color: #3D1101;
+}
+
+.footer .about {
+    margin-right: 21px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.footer .connect ul {
+    display: block;
+}
+
+.footer .connect li {
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 21px;
+}
+
+.footer .pic {
+    margin-left: 50px;
+    position: relative;
+}
+
+.footer span {
+    display: block;
+    font-family: NotoSansCJKtc-Black;
+    font-size: 49px;
+    color: #3D1101;
+    letter-spacing: 0px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    text-align: right;
+}
+
+.footer .link {
+    gap: 12px;
+    justify-content: flex-end;
+    /* position: absolute;
+    right:0; */
+}
+
+.footer .pic .link a img {
+    width: 31px;
+    height: 31px;
+}
+
+@media(max-width:768px) {
+    .footer {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .footer .pic {
+        margin-left: 0
+    }
+
+    .about,
+    .connect {
+        margin-bottom: 20px;
+    }
+
 }
